@@ -32,3 +32,12 @@ class MyClass {
   // Using function
   print(sumUp(5, 10, 3));
 }
+
+// example 5 using Sets
+void main() {
+  var desserts = {'cookies', 'ice cream', 'brownie', 'apple pie', 'Mousse'};
+  var meals = {'soup', 'pasta', 'bread', 'salad', 'chicken', 'fish'};
+  
+  var allElements = desserts.union(meals);
+  print('Union de sets: $allElements');
+}
